@@ -91,7 +91,7 @@ public class UserTest {
             MybatisUtil.closeSession(sqlSession);
         }
     }
-
+//测试是否可以使用返回值
     public User queryUser1(){
         sqlSession = MybatisUtil.getSqlSession();
         int id = 5;
