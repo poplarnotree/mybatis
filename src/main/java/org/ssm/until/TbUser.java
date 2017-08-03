@@ -1,19 +1,13 @@
 package org.ssm.until;
 
-public class User {
+public class TbUser {
     private Integer id;
+
     private String name;
+
     private char sex;
+
     private Integer age;
-
-    public User() {
-    }
-
-    public User( String name, char sex, Integer age) {
-        this.name = name;
-        this.sex = sex;
-        this.age = age;
-    }
 
     public Integer getId() {
         return id;

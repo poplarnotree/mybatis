@@ -2,23 +2,23 @@ package org.ssm.test;
 
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
-import org.ssm.until.User;
+import org.ssm.until.TbUser;
 import org.ssm.utils.MybatisUtil;
 
 public class UserTest {
     SqlSession sqlSession;
     @Test
-    public void insertPerson(){
+    public void insertUser(){
         sqlSession = MybatisUtil.getSqlSession();
         String name = "test";
         char sex = 'm';
         int age = 18;
-        User user = new User();
+        TbUser user = new TbUser();
         user.setName(name);
         user.setSex(sex);
         user.setAge(age);
         try {
-            sqlSession.insert("insertUser",user);
+            sqlSession.insert("insertSelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -32,7 +32,7 @@ public class UserTest {
         sqlSession = MybatisUtil.getSqlSession();
         int id = 1;
         try {
-            User user = sqlSession.selectOne("queryById",id);
+            TbUser user = sqlSession.selectOne("selectByPrimaryKey",id);
             sqlSession.commit();
             System.out.println(user.getName()+","+user.getAge()+","+user.getSex());
         }catch (Exception e){
@@ -48,11 +48,11 @@ public class UserTest {
         sqlSession = MybatisUtil.getSqlSession();
         int id = 2;
         try {
-            User user = sqlSession.selectOne("queryById",id);
+            TbUser user = sqlSession.selectOne("selectByPrimaryKey",id);
             sqlSession.commit();
             user.setSex('女');
             user.setAge(19);
-            sqlSession.update("updateUser",user);
+            sqlSession.update("updateByPrimaryKeySelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -63,13 +63,12 @@ public class UserTest {
     @Test
     public void updateUser1(){
         sqlSession = MybatisUtil.getSqlSession();
-        int id = 2;
         try {
-            User user = new UserTest().queryUser1();
+            TbUser user = new UserTest().queryUser1();
             user.setName("江滋婵");
             user.setSex('女');
             user.setAge(21);
-            sqlSession.update("updateUser",user);
+            sqlSession.update("updateByPrimaryKeySelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -81,9 +80,9 @@ public class UserTest {
     @Test
     public void deleteUser(){
         sqlSession = MybatisUtil.getSqlSession();
-        int id = 5;
+        int id = 3;
         try{
-            sqlSession.delete("deleteUser",id);
+            sqlSession.delete("deleteByPrimaryKey",id);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -92,12 +91,12 @@ public class UserTest {
         }
     }
 //测试是否可以使用返回值
-    public User queryUser1(){
+    public TbUser queryUser1(){
         sqlSession = MybatisUtil.getSqlSession();
-        int id = 5;
-        User user = null;
+        int id = 2;
+        TbUser user = null;
         try {
-            user = sqlSession.selectOne("queryById",id);
+            user = sqlSession.selectOne("selectByPrimaryKey",id);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
