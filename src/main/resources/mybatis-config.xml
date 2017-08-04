@@ -20,5 +20,7 @@
     </environments>
     <mappers>
         <mapper resource="mapper/TbUserMapper.xml"/>
+        <mapper resource="mapper/TbCardMapper.xml"/>
+        <mapper resource="mapper/TbPersonMapper.xml"/>
     </mappers>
 </configuration>

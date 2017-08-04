@@ -47,5 +47,11 @@
         <table schema="" tableName="tb_user" enableCountByExample="false" enableSelectByExample="false"
                enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
         </table>
+        <table schema="" tableName="tb_person" enableCountByExample="false" enableSelectByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
+        </table>
+        <table schema="" tableName="tb_card" enableCountByExample="false" enableSelectByExample="false"
+               enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
+        </table>
     </context>
 </generatorConfiguration>

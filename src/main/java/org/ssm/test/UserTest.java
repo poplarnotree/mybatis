@@ -18,7 +18,7 @@ public class UserTest {
         user.setSex(sex);
         user.setAge(age);
         try {
-            sqlSession.insert("insertSelective",user);
+            sqlSession.insert("mapper.TbUserMapper.insertSelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -32,7 +32,7 @@ public class UserTest {
         sqlSession = MybatisUtil.getSqlSession();
         int id = 1;
         try {
-            TbUser user = sqlSession.selectOne("selectByPrimaryKey",id);
+            TbUser user = sqlSession.selectOne("mapper.TbUserMapper.selectByPrimaryKey",id);
             sqlSession.commit();
             System.out.println(user.getName()+","+user.getAge()+","+user.getSex());
         }catch (Exception e){
@@ -46,13 +46,13 @@ public class UserTest {
     @Test
     public void updateUser(){
         sqlSession = MybatisUtil.getSqlSession();
-        int id = 2;
+        int id = 3;
         try {
-            TbUser user = sqlSession.selectOne("selectByPrimaryKey",id);
+            TbUser user = sqlSession.selectOne("mapper.TbUserMapper.selectByPrimaryKey",id);
             sqlSession.commit();
             user.setSex('女');
             user.setAge(19);
-            sqlSession.update("updateByPrimaryKeySelective",user);
+            sqlSession.update("mapper.TbUserMapper.updateByPrimaryKeySelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -68,7 +68,7 @@ public class UserTest {
             user.setName("江滋婵");
             user.setSex('女');
             user.setAge(21);
-            sqlSession.update("updateByPrimaryKeySelective",user);
+            sqlSession.update("mapper.TbUserMapper.updateByPrimaryKeySelective",user);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -82,7 +82,7 @@ public class UserTest {
         sqlSession = MybatisUtil.getSqlSession();
         int id = 3;
         try{
-            sqlSession.delete("deleteByPrimaryKey",id);
+            sqlSession.delete("mapper.TbUserMapper.deleteByPrimaryKey",id);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
@@ -96,7 +96,7 @@ public class UserTest {
         int id = 2;
         TbUser user = null;
         try {
-            user = sqlSession.selectOne("selectByPrimaryKey",id);
+            user = sqlSession.selectOne("mapper.TbUserMapper.selectByPrimaryKey",id);
             sqlSession.commit();
         }catch (Exception e){
             e.printStackTrace();
