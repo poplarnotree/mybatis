@@ -14,6 +14,21 @@
     from tb_card
     where id = #{id,jdbcType=INTEGER}
   </select>
+  <select id="selectByCode" parameterType="java.lang.String" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List"/>
+    FROM tb_card WHERE CODE = #{code}
+  </select>
+  <!--<trim>-->
+    <!--<if test="id != null and code != null" >-->
+      <!--id = #{id,jdbcType=INTEGER} AND CODE = #{code,jdbcType="VARCHAR"}-->
+    <!--</if>-->
+    <!--<if test="id != null and code == null">-->
+      <!--id = #{id,jdbcType=INTEGER}-->
+    <!--</if>-->
+    <!--<if test="code != null and id == null">-->
+      <!--CODE = #{code,jdbcType="VARCHAR"}-->
+    <!--</if>-->
+  <!--</trim>-->
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from tb_card
     where id = #{id,jdbcType=INTEGER}
