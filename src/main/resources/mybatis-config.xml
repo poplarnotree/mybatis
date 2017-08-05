@@ -22,5 +22,7 @@
         <mapper resource="mapper/TbUserMapper.xml"/>
         <mapper resource="mapper/TbCardMapper.xml"/>
         <mapper resource="mapper/TbPersonMapper.xml"/>
+        <mapper resource="mapper/TbClassMapper.xml"/>
+        <mapper resource="mapper/TbStudentMapper.xml"/>
     </mappers>
 </configuration>
