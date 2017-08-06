@@ -7,10 +7,18 @@
     <result column="sex" property="sex" jdbcType="VARCHAR" />
     <result column="age" property="age" jdbcType="INTEGER" />
     <result column="class_id" property="classId" jdbcType="INTEGER" />
+    <association property="tbClass" column="id" select="mapper.TbClassMapper.selectByPrimaryKey"
+                 javaType="org.ssm.until.TbClass"/>
   </resultMap>
   <sql id="Base_Column_List" >
     id, NAME, sex, age, class_id
   </sql>
+  <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    select
+    <include refid="Base_Column_List" />
+    from tb_student
+    where id = #{id,jdbcType=INTEGER}
+  </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select
     <include refid="Base_Column_List" />

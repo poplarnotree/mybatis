@@ -17,9 +17,6 @@
   <sql id="Base_Column_List" >
     id, CODE, NAME
   </sql>
-  <select id="selectMappingOneToMany" resultMap="BaseResultMap" parameterType="java.lang.Integer">
-    SELECT * FROM tb_class JOIN tb_student where tb_class.id = #{id,jdbcType=INTEGER}
-  </select>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
     select
     <include refid="Base_Column_List" />

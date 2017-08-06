@@ -6,8 +6,6 @@ import org.ssm.until.TbClass;
 import org.ssm.until.TbStudent;
 import org.ssm.utils.MybatisUtil;
 
-import java.util.List;
-
 public class ClassTest {
     SqlSession sqlSession;
 
@@ -22,6 +20,21 @@ public class ClassTest {
             for (TbStudent s : tbClass.getStudents()){
                 System.out.println(s.getName());
             }
+        }catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            MybatisUtil.closeSession(sqlSession);
+        }
+    }
+    @Test
+    public void QueryManyToOne(){
+        sqlSession = MybatisUtil.getSqlSession();
+        int id = 1;
+        try {
+            TbStudent student = sqlSession.selectOne("mapper.TbStudentMapper.selectById",id);
+            sqlSession.commit();
+            System.out.println(student.getName());
+            System.out.println(student.getTbClass().getName());
         }catch (Exception e){
             e.printStackTrace();
         }finally {
