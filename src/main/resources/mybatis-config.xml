@@ -4,6 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <properties resource="config.properties"/>
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
     <typeAliases>
         <typeAlias type="org.ssm.until.TbUser" alias="User"/>
     </typeAliases>
@@ -24,5 +28,9 @@
         <mapper resource="mapper/TbPersonMapper.xml"/>
         <mapper resource="mapper/TbClassMapper.xml"/>
         <mapper resource="mapper/TbStudentMapper.xml"/>
+        <mapper resource="mapper/TbUsersMapper.xml"/>
+        <mapper resource="mapper/TbOrderMapper.xml"/>
+        <mapper resource="mapper/TbItemMapper.xml"/>
+        <mapper resource="mapper/TbArticleMapper.xml"/>
     </mappers>
 </configuration>

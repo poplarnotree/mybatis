@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.TbItemMapper" >
+  <resultMap id="BaseResultMap" type="org.ssm.until.TbItem" >
+    <id column="order_id" property="orderId" jdbcType="INTEGER" />
+    <id column="article_id" property="articleId" jdbcType="INTEGER" />
+    <result column="amount" property="amount" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    order_id, article_id, amount
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="org.ssm.until.TbItemKey" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_item
+    where order_id = #{orderId,jdbcType=INTEGER}
+      and article_id = #{articleId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="org.ssm.until.TbItemKey" >
+    delete from tb_item
+    where order_id = #{orderId,jdbcType=INTEGER}
+      and article_id = #{articleId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.ssm.until.TbItem" >
+    insert into tb_item (order_id, article_id, amount
+      )
+    values (#{orderId,jdbcType=INTEGER}, #{articleId,jdbcType=INTEGER}, #{amount,jdbcType=INTEGER}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="org.ssm.until.TbItem" >
+    insert into tb_item
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="orderId != null" >
+        order_id,
+      </if>
+      <if test="articleId != null" >
+        article_id,
+      </if>
+      <if test="amount != null" >
+        amount,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="orderId != null" >
+        #{orderId,jdbcType=INTEGER},
+      </if>
+      <if test="articleId != null" >
+        #{articleId,jdbcType=INTEGER},
+      </if>
+      <if test="amount != null" >
+        #{amount,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.ssm.until.TbItem" >
+    update tb_item
+    <set >
+      <if test="amount != null" >
+        amount = #{amount,jdbcType=INTEGER},
+      </if>
+    </set>
+    where order_id = #{orderId,jdbcType=INTEGER}
+      and article_id = #{articleId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.ssm.until.TbItem" >
+    update tb_item
+    set amount = #{amount,jdbcType=INTEGER}
+    where order_id = #{orderId,jdbcType=INTEGER}
+      and article_id = #{articleId,jdbcType=INTEGER}
+  </update>
+</mapper>

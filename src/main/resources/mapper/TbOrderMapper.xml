@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.TbOrderMapper" >
+  <resultMap id="BaseResultMap" type="org.ssm.until.TbOrder" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="CODE" property="code" jdbcType="VARCHAR" />
+    <result column="total" property="total" jdbcType="DOUBLE" />
+    <result column="users_id" property="usersId" jdbcType="INTEGER" />
+    <!--多对一的关联映射-->
+    <association property="users" javaType="org.ssm.until.TbUsers">
+      <id property="id" column="id"/>
+      <result property="username" column="username"/>
+      <result property="loginname" column="loginname"/>
+      <result property="password" column="password"/>
+      <result property="phone" column="phone"/>
+      <result property="address" column="address"/>
+    </association>
+    <!--多对多映射-->
+    <collection property="articles" javaType="ArrayList" column="id"
+                ofType="org.ssm.until.TbArticle"
+                select="mapper.TbArticleMapper.selectByPrimaryKey"
+                fetchType="lazy">
+      <id property="id" column="id"/>
+      <result property="name" column="name"/>
+      <result property="price" column="price"/>
+      <result property="remark" column="remark"/>
+    </collection>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, CODE, total, users_id
+  </sql>
+  <select id="selectById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    SELECT u.*, o.id AS oid, CODE,total ,users_id
+    FROM tb_users u,tb_order o
+    WHERE u.id =o.users_id
+    AND o.id = #{id,jdbcType=INTEGER}
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from tb_order
+    where users_id = #{id}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from tb_order
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="org.ssm.until.TbOrder" >
+    insert into tb_order (id, CODE, total,
+      users_id)
+    values (#{id,jdbcType=INTEGER}, #{code,jdbcType=VARCHAR}, #{total,jdbcType=DOUBLE},
+      #{usersId,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="org.ssm.until.TbOrder" >
+    insert into tb_order
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="code != null" >
+        CODE,
+      </if>
+      <if test="total != null" >
+        total,
+      </if>
+      <if test="usersId != null" >
+        users_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="code != null" >
+        #{code,jdbcType=VARCHAR},
+      </if>
+      <if test="total != null" >
+        #{total,jdbcType=DOUBLE},
+      </if>
+      <if test="usersId != null" >
+        #{usersId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.ssm.until.TbOrder" >
+    update tb_order
+    <set >
+      <if test="code != null" >
+        CODE = #{code,jdbcType=VARCHAR},
+      </if>
+      <if test="total != null" >
+        total = #{total,jdbcType=DOUBLE},
+      </if>
+      <if test="usersId != null" >
+        users_id = #{usersId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.ssm.until.TbOrder" >
+    update tb_order
+    set CODE = #{code,jdbcType=VARCHAR},
+      total = #{total,jdbcType=DOUBLE},
+      users_id = #{usersId,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
