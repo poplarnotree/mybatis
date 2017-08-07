@@ -1,4 +1,4 @@
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========> Parameters: 4(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <========      Total: 0
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - <======      Total: 4
@@ -15,17 +15,17 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1800890735.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6b57696f]
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
-DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ====>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ? 
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ====>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ?
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ====> Parameters: 1(Integer)
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======> Parameters: 2(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <======      Total: 0
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======> Parameters: 3(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <======      Total: 0
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ======> Parameters: 4(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <======      Total: 0
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - <====      Total: 4
@@ -41,19 +41,19 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1800890735.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6b57696f]
-DEBUG main mapper.TbStudentMapper.selectById - ==>  Preparing: select id, NAME, sex, age, class_id from tb_student where id = ? 
+DEBUG main mapper.TbStudentMapper.selectById - ==>  Preparing: select id, NAME, sex, age, class_id from tb_student where id = ?
 DEBUG main mapper.TbStudentMapper.selectById - ==> Parameters: 1(Integer)
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ====>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ====>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ====> Parameters: 1(Integer)
-DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ======>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ? 
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ======>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ?
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ======> Parameters: 1(Integer)
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========> Parameters: 2(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <========      Total: 0
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========> Parameters: 3(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <========      Total: 0
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ========> Parameters: 4(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <========      Total: 0
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - <======      Total: 4
@@ -70,10 +70,10 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 352359770.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1500955a]
-DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, NAME from tb_class where id = ? 
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, NAME from tb_class where id = ?
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ? 
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ?
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - <==      Total: 4
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1500955a]
@@ -92,7 +92,7 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -106,10 +106,10 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -123,16 +123,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ? 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ?
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ? 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ?
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 1
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -146,16 +146,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ? 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ?
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ? 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, price, remark from tb_article where id = ?
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 1
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -169,16 +169,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -192,16 +192,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -215,16 +215,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -238,7 +238,7 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 0
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -252,16 +252,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -275,16 +275,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -298,16 +298,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -326,16 +326,16 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 19717364.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12cdcf4]
-DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ? 
+DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==>  Preparing: select id, username, loginname, PASSWORD, phone, address from tb_users where id = ?
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbUsersMapper.selectByPrimaryKey - <==      Total: 1
-DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ? 
+DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, total, users_id from tb_order where users_id = ?
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectByPrimaryKey - <==      Total: 2
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 2(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 2
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@12cdcf4]
@@ -349,10 +349,10 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbOrderMapper.selectById - ==>  Preparing: SELECT u.*, o.id AS oid, CODE,total ,users_id FROM tb_users u,tb_order o WHERE u.id =o.users_id AND o.id = ? 
+DEBUG main mapper.TbOrderMapper.selectById - ==>  Preparing: SELECT u.*, o.id AS oid, CODE,total ,users_id FROM tb_users u,tb_order o WHERE u.id =o.users_id AND o.id = ?
 DEBUG main mapper.TbOrderMapper.selectById - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectById - <==      Total: 1
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
@@ -366,12 +366,164 @@ DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSour
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
-DEBUG main mapper.TbOrderMapper.selectById - ==>  Preparing: SELECT u.*, o.id AS oid, CODE,total ,users_id FROM tb_users u,tb_order o WHERE u.id =o.users_id AND o.id = ? 
+DEBUG main mapper.TbOrderMapper.selectById - ==>  Preparing: SELECT u.*, o.id AS oid, CODE,total ,users_id FROM tb_users u,tb_order o WHERE u.id =o.users_id AND o.id = ?
 DEBUG main mapper.TbOrderMapper.selectById - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbOrderMapper.selectById - <==      Total: 1
-DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?) 
+DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==>  Preparing: SELECT * FROM tb_article where id IN ( SELECT article_id FROM tb_item WHERE order_id = ?)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
 DEBUG main mapper.TbArticleMapper.selectByPrimaryKey - <==      Total: 3
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
 DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
 DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1154002927 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1154002927.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==>  Preparing: select id, CODE, NAME from tb_class where id = ?
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+DEBUG main mapper.TbClassMapper.selectByPrimaryKey - <==      Total: 1
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ==>  Preparing: select id, NAME, sex, age, class_id from tb_student where class_id = ?
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - ==> Parameters: 1(Integer)
+DEBUG main mapper.TbStudentMapper.selectByPrimaryKey - <==      Total: 4
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@44c8afef]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1154002927 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1956710488.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.ssm.mapper.UserMapper.saveUser - ==>  Preparing: INSERT INTO tb_user(NAME,SEX,AGE) VALUES(?,?,?) 
+DEBUG main org.ssm.mapper.UserMapper.saveUser - ==> Parameters: test(String), 男(String), 21(Integer)
+DEBUG main org.ssm.mapper.UserMapper.saveUser - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1956710488 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1956710488.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.ssm.mapper.UserMapper.saveUser - ==>  Preparing: INSERT INTO tb_user(NAME,SEX,AGE) VALUES(?,?,?) 
+DEBUG main org.ssm.mapper.UserMapper.saveUser - ==> Parameters: test(String), 男(String), 21(Integer)
+DEBUG main org.ssm.mapper.UserMapper.saveUser - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@74a10858]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1956710488 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1920387277.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==>  Preparing: SELECT * FROM tb_user WHERE id = ? 
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==> Parameters: 1(Integer)
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1920387277 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1920387277.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==>  Preparing: SELECT * FROM tb_user WHERE id = ? 
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==> Parameters: 1(Integer)
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7276c8cd]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1920387277 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1160003871.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==>  Preparing: SELECT * FROM tb_user WHERE id = ? 
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==> Parameters: 4(Integer)
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - <==      Total: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1160003871 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1160003871.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==>  Preparing: SELECT * FROM tb_user WHERE id = ? 
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - ==> Parameters: 4(Integer)
+DEBUG main org.ssm.mapper.UserMapper.selectUserById - <==      Total: 1
+DEBUG main org.ssm.mapper.UserMapper.modifyUser - ==>  Preparing: UPDATE tb_user SET NAME = ?,SEX = ?, AGE = ? WHERE ID = ? 
+DEBUG main org.ssm.mapper.UserMapper.modifyUser - ==> Parameters: 琼恩·坦格利安(String), 男(String), 28(Integer), 4(Integer)
+DEBUG main org.ssm.mapper.UserMapper.modifyUser - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4524411f]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1160003871 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1075738627.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.ssm.mapper.UserMapper.removeUser - ==>  Preparing: DELETE FROM tb_user WHERE ID = ? 
+DEBUG main org.ssm.mapper.UserMapper.removeUser - ==> Parameters: 4(Integer)
+DEBUG main org.ssm.mapper.UserMapper.removeUser - <==    Updates: 1
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1075738627 to pool.
+DEBUG main org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 1075738627.
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.ssm.mapper.UserMapper.selectUserList - ==>  Preparing: SELECT * FROM tb_user 
+DEBUG main org.ssm.mapper.UserMapper.selectUserList - ==> Parameters: 
+DEBUG main org.ssm.mapper.UserMapper.selectUserList - <==      Total: 6
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.apache.ibatis.transaction.jdbc.JdbcTransaction - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@401e7803]
+DEBUG main org.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 1075738627 to pool.
