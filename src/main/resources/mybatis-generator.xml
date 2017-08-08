@@ -53,16 +53,19 @@
         <!--<table schema="" tableName="tb_card" enableCountByExample="false" enableSelectByExample="false"-->
                <!--enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >-->
         <!--</table>-->
-        <table schema="" tableName="tb_users" enableCountByExample="false" enableSelectByExample="false"
-               enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
-        </table>
-        <table schema="" tableName="tb_order" enableCountByExample="false" enableSelectByExample="false"
-               enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
-        </table>
-        <table schema="" tableName="tb_article" enableCountByExample="false" enableSelectByExample="false"
-               enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
-        </table>
-        <table schema="" tableName="tb_item" enableCountByExample="false" enableSelectByExample="false"
+        <!--<table schema="" tableName="tb_users" enableCountByExample="false" enableSelectByExample="false"-->
+               <!--enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >-->
+        <!--</table>-->
+        <!--<table schema="" tableName="tb_order" enableCountByExample="false" enableSelectByExample="false"-->
+               <!--enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >-->
+        <!--</table>-->
+        <!--<table schema="" tableName="tb_article" enableCountByExample="false" enableSelectByExample="false"-->
+               <!--enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >-->
+        <!--</table>-->
+        <!--<table schema="" tableName="tb_item" enableCountByExample="false" enableSelectByExample="false"-->
+               <!--enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >-->
+        <!--</table>-->
+        <table schema="" tableName="tb_employee" enableCountByExample="false" enableSelectByExample="false"
                enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" >
         </table>
     </context>
